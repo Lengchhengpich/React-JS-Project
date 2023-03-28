@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Indie+Flower&family=Zilla+Slab:wght@300&display=swap');
+.wrapp{
+  width: 85%;
+  margin: 0 auto;
+}
+.container{
+  display: flex;
+}
+.right{
+  width: 40%;
+  height: 470px;
+  border: 5px solid;
+}
+.right img{
+  text-align: center;
+  margin-top: 38px;
+  padding-right: 50px;
+}
+.left{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 25px;
+}
