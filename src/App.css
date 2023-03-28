@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Indie+Flower&family=Zilla+Slab:wght@300&display=swap');
+.wrapp{
+  width: 85%;
+  margin: 0 auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
+}
+.right{
+  width: 40%;
+  height: 470px;
+  border: 5px solid;
+}
+.right img{
+  text-align: center;
+  margin-top: 38px;
+  padding-right: 50px;
+}
+.left{
+  margin-left: 20px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 25px;
 }
